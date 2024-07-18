@@ -1,0 +1,142 @@
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(to top, #fff, #cdcdcd,#b68362);
+  background-attachment: fixed;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  width: 50rem;
+  height: 100rem;
+
+  margin: auto;
+  margin-top: 3rem;
+}
+
+header img {
+  background-color: #fff;
+  width: 30rem;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 3rem;
+
+  font-family: "Mulish", sans-serif;
+}
+
+main h1 {
+  font-family: "Mulish", sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
+  color: #372018;
+
+  letter-spacing: 4px;
+
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+
+main .line {
+  border: 1px solid #cd7927;
+  border-radius: 5px;
+
+  width: 50%;
+}
+
+main ul {
+  list-style: none;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  margin-top: 5%;
+}
+
+main ul li {
+  margin: 8rem;
+
+  text-align: center;
+  
+  width: auto;
+
+  font-size: 3rem;
+}
+
+main ul li a {
+  font-size: 13px;
+  font-weight: bold;
+
+  letter-spacing: 2px;
+  
+  text-decoration: none;
+  text-transform: uppercase;
+  
+  color: #372018;
+
+  border: 2px solid #372018;
+  border-radius: 10px;
+
+  transition: background-color 0.8s ease;
+
+  box-shadow: 0 0 10px 1px #baa896;
+
+  padding: 20px 7px;
+}
+
+main ul li a:hover {
+  background: #c35c1d;
+  color: #fff;
+
+  font-weight: bold;
+  
+}
+
+footer {
+  letter-spacing: 1px;
+  color: #cd7927;
+  text-align: center;
+  width: 100%;
+
+  font-family: "Mulish", sans-serif;
+
+  margin-top: 25%;
+  margin-bottom: 6rem;
+}
+
+footer h2 {
+  font-size: 1.2rem;
+}
+
+footer img {
+  width: 10rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  
+  margin-bottom: 0;
+
+}

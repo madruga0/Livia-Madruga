@@ -3,7 +3,7 @@
 }
 
 body {
-  background: linear-gradient(to top, #fff, #cdcdcd,#b68362);
+  background: linear-gradient(to top, #fff, #cdcdcd, #b68362);
   background-attachment: fixed;
 
   margin: 0;
@@ -20,7 +20,11 @@ body {
   height: 100rem;
 
   margin: auto;
-  margin-top: 3rem;
+  margin-top: 1rem;
+}
+
+header {
+  text-align: center;
 }
 
 header img {
@@ -46,14 +50,14 @@ main {
 }
 
 main h1 {
-  font-family: "Mulish", sans-serif;
-  font-size: 4rem;
-  font-weight: 500;
+  font-family: "Playfair Display", serif;
+  font-size: 4.5rem;
+  font-weight: 300;
   color: #372018;
 
   letter-spacing: 4px;
 
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
   margin-top: 0;
 }
 
@@ -74,39 +78,38 @@ main ul {
   width: 100%;
 }
 
-
 main ul li {
-  margin: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem;
 
   text-align: center;
-  
-  width: auto;
 
-  font-size: 3rem;
+  /* width: auto; */
 }
 
 main ul li a {
   display: inline-block;
-  font-size: 24px;
+  font-size: 2rem;
   font-weight: bold;
 
   letter-spacing: 2px;
-  
+
   text-decoration: none;
-  text-transform: uppercase;
-  
+
   color: #372018;
 
   border: 2px solid #372018;
-  border-radius: 10px;
+  border-radius: 5rem;
 
   transition: background-color 0.8s ease;
 
   box-shadow: 0 0 10px 1px #baa896;
 
-  padding: 20px 7px;
+  padding: 10px 20px;
 
-  width: 100%;
+  width: 80%;
 }
 
 main ul li a:hover {
@@ -114,31 +117,23 @@ main ul li a:hover {
   color: #fff;
 
   font-weight: bold;
-  
 }
 
 footer {
-  letter-spacing: 1px;
-  color: #cd7927;
   text-align: center;
   width: 100%;
 
   font-family: "Mulish", sans-serif;
 
-  margin-top: 25%;
-  margin-bottom: 6rem;
-}
-
-footer h2 {
-  font-size: 1.2rem;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
 }
 
 footer img {
-  width: 10rem;
-  position: fixed;
-  left: 0;
+  width: 15rem;
+  position: relative;
+  right: 0;
   bottom: 0;
-  
-  margin-bottom: 0;
 
+  margin-bottom: 0;
 }
